@@ -10,7 +10,7 @@ import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import CookieIcon from '@mui/icons-material/Cookie';
+import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import {Link} from "@mui/material";
 
 const pages = ['Products', 'Pricing', 'Blog'];
@@ -40,7 +40,7 @@ const ResponsiveAppBar = () => {
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Box px={4}>
-                        <CookieIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+                        <LightbulbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
                     </Box>
                     <Typography
                         variant="h6"
@@ -57,7 +57,7 @@ const ResponsiveAppBar = () => {
                             textDecoration: 'none',
                         }}
                     >
-                        MRS. BABY'S BAKERY
+                        RIGHTEOUS
                     </Typography>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -97,7 +97,7 @@ const ResponsiveAppBar = () => {
                         </Menu>
                     </Box>
                     <Box px={4}>
-                        <CookieIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+                        <LightbulbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
                     </Box>
                     <Typography
                         variant="h5"
@@ -115,7 +115,7 @@ const ResponsiveAppBar = () => {
                             textDecoration: 'none',
                         }}
                     >
-                        MRS. BABY'S BAKERY
+                        RIGHTEOUS
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (

@@ -1,5 +1,5 @@
 {
-  "name": "satan-mingle",
+  "name": "auth",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^13.2.1",
     "axios": "^0.25.0",
     "faker": "^6.6.6",
+    "fsevents": "2.3.2",
     "papaparse": "^5.3.1",
     "react": "^18.1.0",
     "react-hook-form": "7.31.1",
@@ -47,5 +48,8 @@
   },
   "devDependencies": {
     "@faker-js/faker": "^6.0.0-alpha.5"
+  },
+  "optionalDependencies": {
+    "fsevents": "*"
   }
 }

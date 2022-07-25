@@ -60,7 +60,7 @@ const Signup = () => {
                     <Button type={"submit"} disabled={!isValid} variant={"contained"}>Sign Up</Button>
                 </Grid>
                 <Grid item>
-                    <Box>
+                    <Box sx={{textAlign: 'center'}}>
                         <Typography variant={"caption"}>Already have an account? <Link underline={"hover"} href={"/login"}>Log in here.</Link></Typography>
                     </Box>
                 </Grid>
